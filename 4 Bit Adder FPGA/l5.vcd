@@ -1,0 +1,555 @@
+$date
+	Sun Nov 08 17:11:15 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module switch_box_4x4 $end
+$var wire 4 ! in [3:0] $end
+$var wire 4 " out [3:0] $end
+$var reg 16 # configure [15:0] $end
+$upscope $end
+$scope module test $end
+$var wire 4 $ wout [3:0] $end
+$var wire 1 % wcout $end
+$var reg 1 & clk $end
+$var reg 1 ' rcin $end
+$var reg 4 ( rin1 [3:0] $end
+$var reg 4 ) rin2 [3:0] $end
+$scope module inst_adder_4_bit $end
+$var wire 1 ' cin $end
+$var wire 1 & clock $end
+$var wire 4 * in1 [3:0] $end
+$var wire 4 + in2 [3:0] $end
+$var wire 1 , w20 $end
+$var wire 4 - out [3:0] $end
+$var wire 1 % cout $end
+$scope module LT00 $end
+$var wire 1 & clock $end
+$var wire 1 ' in1 $end
+$var wire 1 . in2 $end
+$var wire 1 / in3 $end
+$var wire 1 0 in4 $end
+$var wire 1 1 in5 $end
+$var wire 1 2 out $end
+$var wire 1 3 d $end
+$var reg 33 4 mem [32:0] $end
+$var reg 1 5 q $end
+$var reg 1 6 qbar $end
+$var integer 32 7 x [31:0] $end
+$upscope $end
+$scope module LT01 $end
+$var wire 1 & clock $end
+$var wire 1 8 in2 $end
+$var wire 1 9 in3 $end
+$var wire 1 : in4 $end
+$var wire 1 ; in5 $end
+$var wire 1 < out $end
+$var wire 1 , in1 $end
+$var wire 1 = d $end
+$var reg 33 > mem [32:0] $end
+$var reg 1 ? q $end
+$var reg 1 @ qbar $end
+$var integer 32 A x [31:0] $end
+$upscope $end
+$scope module LT10 $end
+$var wire 1 & clock $end
+$var wire 1 ' in1 $end
+$var wire 1 B in2 $end
+$var wire 1 C in3 $end
+$var wire 1 D in4 $end
+$var wire 1 E in5 $end
+$var wire 1 F out $end
+$var wire 1 G d $end
+$var reg 33 H mem [32:0] $end
+$var reg 1 I q $end
+$var reg 1 J qbar $end
+$var integer 32 K x [31:0] $end
+$upscope $end
+$scope module LT11 $end
+$var wire 1 & clock $end
+$var wire 1 L in2 $end
+$var wire 1 M in3 $end
+$var wire 1 N in4 $end
+$var wire 1 O in5 $end
+$var wire 1 P out $end
+$var wire 1 , in1 $end
+$var wire 1 Q d $end
+$var reg 33 R mem [32:0] $end
+$var reg 1 S q $end
+$var reg 1 T qbar $end
+$var integer 32 U x [31:0] $end
+$upscope $end
+$scope module LT20 $end
+$var wire 1 & clock $end
+$var wire 1 ' in1 $end
+$var wire 1 V in2 $end
+$var wire 1 W in3 $end
+$var wire 1 X in4 $end
+$var wire 1 Y in5 $end
+$var wire 1 , out $end
+$var wire 1 Z d $end
+$var reg 33 [ mem [32:0] $end
+$var reg 1 \ q $end
+$var reg 1 ] qbar $end
+$var integer 32 ^ x [31:0] $end
+$upscope $end
+$scope module LT21 $end
+$var wire 1 & clock $end
+$var wire 1 , in1 $end
+$var wire 1 _ in2 $end
+$var wire 1 ` in3 $end
+$var wire 1 a in4 $end
+$var wire 1 b in5 $end
+$var wire 1 % out $end
+$var wire 1 c d $end
+$var reg 33 d mem [32:0] $end
+$var reg 1 e q $end
+$var reg 1 f qbar $end
+$var integer 32 g x [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 g
+xf
+xe
+b11111110111110001110000010000000 d
+0c
+0b
+0a
+0`
+0_
+b0 ^
+x]
+x\
+b11111110111110001110000010000000 [
+0Z
+0Y
+0X
+0W
+0V
+b0 U
+xT
+xS
+b11100001100001110001111001111000 R
+0Q
+0P
+0O
+0N
+0M
+0L
+b0 K
+xJ
+xI
+b11100001100001110001111001111000 H
+0G
+0F
+0E
+0D
+0C
+0B
+b0 A
+x@
+x?
+b10011001011001101001100101100110 >
+0=
+0<
+0;
+0:
+09
+08
+b0 7
+x6
+x5
+b10011001011001101001100101100110 4
+03
+02
+01
+00
+0/
+0.
+b0 -
+0,
+b0 +
+b0 *
+b0 )
+b0 (
+0'
+0&
+0%
+b0 $
+bx #
+bx "
+bz !
+$end
+#10
+b10 $
+b10 -
+1F
+b1001 7
+1G
+b1001 K
+b1001 ^
+05
+0I
+0\
+0?
+0S
+0e
+10
+1D
+1X
+16
+1J
+1]
+1@
+1T
+1f
+1'
+b1 (
+b1 *
+1&
+#20
+1<
+1%
+b111 $
+b111 -
+12
+1=
+b11100 A
+b11100 U
+1c
+b11100 g
+13
+b11000 7
+b11000 K
+b11000 ^
+19
+1M
+1`
+11
+1E
+1Y
+1:
+1;
+1N
+1O
+1a
+1b
+0'
+b1000 )
+b1000 +
+b1111 (
+b1111 *
+0&
+#30
+1<
+b1111 $
+b1111 -
+1P
+1,
+1=
+b11111 A
+1Q
+b11111 U
+b11111 g
+b11111 7
+b11111 K
+1Z
+b11111 ^
+1e
+1?
+1I
+15
+1.
+1/
+1B
+1C
+1V
+1W
+18
+1L
+1_
+0f
+0@
+0J
+06
+1'
+b1111 )
+b1111 +
+1&
+#40
+b1110 $
+b1110 -
+02
+03
+b11110 7
+b11110 K
+b11110 ^
+0'
+0&
+#50
+0%
+0c
+12
+0,
+1<
+b1111 $
+b1111 -
+1P
+13
+b10010 7
+b10010 K
+0Z
+b10010 ^
+1=
+b10010 A
+1Q
+b10010 U
+b10010 g
+05
+1\
+1S
+0/
+0C
+0W
+09
+0M
+0`
+00
+0D
+0X
+0:
+0N
+0a
+16
+0]
+0T
+b101 )
+b101 +
+b1010 (
+b1010 *
+1&
+#60
+0<
+0P
+1%
+0=
+b10011 A
+0Q
+b10011 U
+1c
+b10011 g
+02
+b0 $
+b0 -
+0F
+1,
+03
+b10011 7
+0G
+b10011 K
+1Z
+b10011 ^
+1'
+0&
+#70
+0S
+0?
+0I
+1T
+1@
+1J
+1&
+#80
+0&
+#90
+1&
+#100
+0&
+#110
+1&
+#120
+0&
+#130
+1&
+#140
+0&
+#150
+1&
+#160
+0&
+#170
+1&
+#180
+0&
+#190
+1&
+#200
+0&
+#210
+1&
+#220
+0&
+#230
+1&
+#240
+0&
+#250
+1&
+#260
+0&
+#270
+1&
+#280
+0&
+#290
+1&
+#300
+0&
+#310
+1&
+#320
+0&
+#330
+1&
+#340
+0&
+#350
+1&
+#360
+0&
+#370
+1&
+#380
+0&
+#390
+1&
+#400
+0&
+#410
+1&
+#420
+0&
+#430
+1&
+#440
+0&
+#450
+1&
+#460
+0&
+#470
+1&
+#480
+0&
+#490
+1&
+#500
+0&
+#510
+1&
+#520
+0&
+#530
+1&
+#540
+0&
+#550
+1&
+#560
+0&
+#570
+1&
+#580
+0&
+#590
+1&
+#600
+0&
+#610
+1&
+#620
+0&
+#630
+1&
+#640
+0&
+#650
+1&
+#660
+0&
+#670
+1&
+#680
+0&
+#690
+1&
+#700
+0&
+#710
+1&
+#720
+0&
+#730
+1&
+#740
+0&
+#750
+1&
+#760
+0&
+#770
+1&
+#780
+0&
+#790
+1&
+#800
+0&
+#810
+1&
+#820
+0&
+#830
+1&
+#840
+0&
+#850
+1&
+#860
+0&
+#870
+1&
+#880
+0&
+#890
+1&
+#900
+0&
+#910
+1&
+#920
+0&
+#930
+1&
+#940
+0&
+#950
+1&
+#960
+0&
+#970
+1&
+#980
+0&
+#990
+1&
+#1000
+0&
